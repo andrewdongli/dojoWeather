@@ -70,16 +70,11 @@ select{
 }
 
 
-
-
-
-
-.high1, .high2, .high3, .high4{
+.high {
     color: #CF2A27;
 }
-.low1, .low2, .low3, .low4{
-    color:#2B78E4;
-}
+.low{color:#2B78E4;}
+
 img{
     width: 100px;
     border-radius: 50%;
