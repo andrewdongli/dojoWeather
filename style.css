@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    padding: 5px 50px;
+}
+
+header{
+    display: flex;
+    background-color:  #9fc5f8;
+    color:white;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px 50px;
+}
+
+.cities{
+    display:flex;
+}
+.cities > h2{
+    margin: 0px 10px;
+}
+
+/* CSS for city header  */
+.city-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 3px solid black;
+}
+.right-header{
+    display: flex;
+        align-items: center;
+}
+.right-header h4 {
+    padding-right: 10px;
+}
+select{
+    padding: 3px;
+}
+
+/* CSS for weather report  */
+.weather-report{
+    display: flex;
+    justify-content: space-between;
+}
+
+.today, .tomorrow, .friday, .saturday{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    background-color: #EEEEEE;
+    width: 150px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.temperature{
+    display: flex;
+    width:150px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.high1, .high2, .high3, .high4{
+    color: #CF2A27;
+}
+.low1, .low2, .low3, .low4{
+    color:#2B78E4;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+/* CSS for cookies  */
+.cookies{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 10px;
+    left:50px;
+    right:50px;
+    border: 2px solid black;
+}
+
+.cookies img{
+    width: 50px;
+    margin: 5px 10px;
+}
+
+.cookies div{
+    margin: 5px 10px;
+}
+
+.cookies button{
+    margin: 5px 10px 5px 0px;
+    padding: 2px 3px;
+    background-color: #9FC5F8 ;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: 120px;
+} 
+
+.cookies a {
+    color: #0F5796;
+}
